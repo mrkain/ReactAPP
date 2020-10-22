@@ -1,0 +1,5 @@
+.header {
+    grid-area: h;
+    background-image: url("logo.svg");
+    background-repeat: no-repeat;
+}
