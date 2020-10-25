@@ -9,6 +9,7 @@ const Post = (props) => {
         <img src="https://yt3.ggpht.com/a/AATXAJyDytRa1iX2xd3CLMo0H-moBlkNskqv5vqIAnzRsw=s900-c-k-c0xffffffff-no-rj-mo" alt=""/>
         { props.message }
       </div>
+      <span>Likes { props.likes }</span>
     </div>
   )
 }
