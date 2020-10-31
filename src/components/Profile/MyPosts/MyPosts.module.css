@@ -7,4 +7,17 @@
 .new_post {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.post_title {
+    display: block;
+}
+
+.post_text {
+    display: block;
+}
+
+.post_button {
+    display: block;
 }
