@@ -1,24 +1,10 @@
-/*.content {
-    grid-area: c;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    padding: 10px;
-}*/
+.content {
 
-.user {
-    margin-top: 10px;
-    padding: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.user img {
-    width: 50px;
-    border-radius: 50%;
 }
 
 .user_header {
-    min-height: 200px;
-    background-image: url("user-header.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+
 }
+
+
 

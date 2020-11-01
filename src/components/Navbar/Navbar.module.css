@@ -10,14 +10,11 @@
     font-weight: 500;
 }
 
-.item.active {
-    color: blue;
-}
-
-.item:hover {
-    color: red;
-}
-
-a {
+.item a {
+    color: black;
     text-decoration: none;
+}
+
+.item a.active {
+    color: red;
 }

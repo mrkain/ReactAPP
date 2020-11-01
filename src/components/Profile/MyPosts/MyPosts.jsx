@@ -5,7 +5,9 @@ import Post from "./Post/Post";
 const MyPosts = () => {
   return (
     <div>
-      MY POSTS
+      <h3>
+        MY POSTS
+      </h3>
       <div className={s.new_post}>
         <span className={s.post_title}>Новый пост</span>
         <textarea className={s.post_text}>Введите текст поста</textarea>
