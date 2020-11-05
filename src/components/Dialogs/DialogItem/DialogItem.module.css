@@ -11,7 +11,7 @@
 .item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(130,130,130,100);
-
+    transition: 0.7s;
 }
 
 .item:first-child {

@@ -1,3 +1,5 @@
+import {rerenderEntireTree} from "../render";
+
 let state = {
 
   profilePage: {
@@ -24,6 +26,16 @@ let state = {
       {id: 6, name: 'Aleksandr', avatar: 'https://photopict.ru/wp-content/uploads/2019/05/krutye-kartinki-na-avu3.jpg'},
     ]
   }
+}
+
+export let addPost = (postMessage) => {
+  let newPost = {
+    id: 5,
+    message: postMessage,
+    likesCount: 0
+  };
+  state.profilePage.posts.push(newPost);
+  rerenderEntireTree(state);
 }
 
 export default state;
